@@ -28,8 +28,8 @@ def getLetterGrade(grade):
 
 
 def run():
-  ignore = input("Enter your CMPSC 131 grade: ");
-  getLetterGrade(grade);
+  G = input("Enter your CMPSC 131 grade: ");
+  getLetterGrade(grade)
 
 if __name__ == "__main__":
   run():
