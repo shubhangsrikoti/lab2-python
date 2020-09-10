@@ -10,21 +10,21 @@ def run(grade):
   G = float(input("Enter your CMPSC 131 grade: "));
   
 def getLetterGrade(grade):
-  if grade >= 93.00:
+  if grade >= 93.0:
     G = "A"
-  elif grade >= 90.00:
+  elif grade >= 90.0:
     G = "A-"
-  elif grade >= 87.00:
+  elif grade >= 87.0:
     G = "B+"
-  elif grade >= 83.00:
+  elif grade >= 83.0:
     G = "B"
-  elif grade >= 80.00:
+  elif grade >= 80.0:
     G = "B-"
-  elif grade >= 77.00:
+  elif grade >= 77.0:
     G = "C+"
-  elif grade >= 70.00:
+  elif grade >= 70.0:
     G = "C"
-  elif grade >= 60.00:
+  elif grade >= 60.0:
     G = "D"
   else :
     G = "F"
