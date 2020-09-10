@@ -35,4 +35,3 @@ def run(grade):
 
 if __name__ == "__main__":
   run(getLetterGrade(grade))
-  print("")
