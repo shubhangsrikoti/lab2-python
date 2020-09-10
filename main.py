@@ -5,7 +5,9 @@
 # Section: 4
 # Breakout: 12
 
-
+def run(grade):
+  getLetterGrade();
+  G = float(input("Enter your CMPSC 131 grade: "));
   
 def getLetterGrade(grade):
   if grade >= 93.0:
@@ -28,9 +30,7 @@ def getLetterGrade(grade):
     G = "F"
   return G;
 
-def run(grade):
-  getLetterGrade();
-  G = float(input("Enter your CMPSC 131 grade: "));
+
 
 
 if __name__ == "__main__":
