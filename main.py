@@ -32,6 +32,7 @@ def getLetterGrade(grade):
 
 
 
+  
 
 if __name__ == "__main__":
-  run();
+  run(getLetterGrade(grade));
